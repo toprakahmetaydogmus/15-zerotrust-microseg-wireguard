@@ -1,27 +1,27 @@
-# Zero Trust Microsegmentation & WireGuard Overlay Lab
+# 🛡️ Zero Trust Microsegmentation & WireGuard Overlay Lab
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/toprakahmetaydogmus/15-zerotrust-microseg-wireguard?color=blue&label=Release)](https://github.com/toprakahmetaydogmus/15-zerotrust-microseg-wireguard/releases)
-[![Monorepo](https://img.shields.io/badge/Monorepo-cybersecurity--ecosystem-orange.svg)](https://github.com/toprakahmetaydogmus/cybersecurity-ecosystem)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![CI Quality Gate](https://github.com/toprakahmetaydogmus/15-zerotrust-microseg-wireguard/actions/workflows/ci.yml/badge.svg)](https://github.com/toprakahmetaydogmus/15-zerotrust-microseg-wireguard/actions)
-[![Zero Trust](https://img.shields.io/badge/Zero%20Trust-Microsegmentation-black.svg)](#)
 
-Geliştirici: **Toprak Ahmet Aydoğmuş**
-
-Kimlik odaklı uçtan uca şifreli WireGuard tünelleri ve NFTables tabanlı Doğu-Batı (East-West) mikro-segmentasyon motoru.
+Developer: **Toprak Ahmet Aydoğmuş**
 
 ---
 
-## ⚡ Hızlı Başlangıç
+## 🎯 1. Overview
+Zero Trust network architecture generator creating encrypted WireGuard point-to-point mesh topologies and automated nftables host-based microsegmentation policies according to least-privilege principles.
+
+---
+
+## 🚀 2. Quick Start
 
 ```bash
 git clone https://github.com/toprakahmetaydogmus/15-zerotrust-microseg-wireguard.git
 cd 15-zerotrust-microseg-wireguard
-
-python scripts/generate_zt_policies.py
+python -m unittest discover tests/
 ```
 
 ---
 
-## 📜 Lisans
-MIT License - **Toprak Ahmet Aydoğmuş**
+## 📜 3. License
+Licensed under the [MIT License](LICENSE).  
+Developer: **Toprak Ahmet Aydoğmuş**.
